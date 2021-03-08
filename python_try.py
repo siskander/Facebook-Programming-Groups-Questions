@@ -8,6 +8,7 @@ def round_floor_ceil():
     print(math.floor(x))
     print(math.ceil(x))
     print(round(x))
+
 #========================        
 
 def function1():
@@ -18,6 +19,7 @@ def function1():
             break
         print(i)
         i += 1
+
 #========================        
 
 def function2():
@@ -37,6 +39,7 @@ def function4():
     print(print("Hello"))
     print(print("Hello ", end=""), print("World"))
     print(print("2*3 = ", end=""), print(2*3))
+
 #========================
 
 def function5():
@@ -48,14 +51,11 @@ def function5():
 #========================
 
 def function6(): 
-    print("The output of function6 is: ")
-    
+    print("The output of function6 is: ")    
     x = 0b101
     print(x)
-
     x = 19023
     print(x)
-
     x = 0x4f5
     print(x)
 
