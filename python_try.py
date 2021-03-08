@@ -40,9 +40,24 @@ def function4():
 #========================
 
 def function5():
+    print("The output of function5 is: ")
     print(.0)
     print(int('09'))
     print(0*1*2)
+
+#========================
+
+def function6(): 
+    print("The output of function6 is: ")
+    
+    x = 0b101
+    print(x)
+
+    x = 19023
+    print(x)
+
+    x = 0x4f5
+    print(x)
 
 #========================
 
@@ -53,7 +68,7 @@ def main():
     function3()
     function4()
     function5()
-
+    function6()
     
 if __name__ == "__main__":
     main()
